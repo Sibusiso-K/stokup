@@ -63,12 +63,10 @@
     },
     async req(path, options) {
       const res = await fetch(cfg.SUPABASE_URL + "/rest/v1/" + path, options);
-      if (!res.ok) {
-        const text = await res.text();
-        throw new Error("Supabase " + res.status + ": " + text);
-      }
-      if (res.status === 204) return null;
-      return res.json();
+      const text = await res.text();
+      if (!res.ok) throw new Error("Supabase " + res.status + ": " + text);
+      // PATCH/insert without "return=representation" reply with an empty body.
+      return text ? JSON.parse(text) : null;
     }
   };
 
