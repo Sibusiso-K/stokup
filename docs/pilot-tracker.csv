@@ -1,0 +1,11 @@
+date,order_id,shop_name,zone,items_count,subtotal_R,delivery_fee_R,total_R,wholesale_cost_R,margin_R,status,paid,would_reorder,notes
+2026-07-22,EXAMPLE-001,Bandile's Tuck Shop,Meadowlands,2,132,60,192,122,10,Delivered,yes,yes,"Sample row — delete. Track every real order here."
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
+,,,,,,,,,,,,,
