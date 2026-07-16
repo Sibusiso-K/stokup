@@ -41,8 +41,8 @@ window.STOKUP_CONFIG = {
 
   // --- Supabase (leave BOTH blank to run in local/single-device mode) ---
   // Fill these in for the real multi-shop pilot. See db/schema.sql + README.
-  SUPABASE_URL: "",
-  SUPABASE_ANON_KEY: "",
+  SUPABASE_URL: "https://dchuiewbjecwiqbzsvsd.supabase.co",
+  SUPABASE_ANON_KEY: "sb_publishable_R1er82aqzGfPuMexQyw9lA_TehJSTGi",
 
   // --- Simple admin gate (MVP only; not real security) ---
   // Change this before sharing the admin link. Real auth is a Phase-2 item.
