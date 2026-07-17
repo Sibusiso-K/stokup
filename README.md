@@ -1,5 +1,10 @@
 # StokUp — Spaza stock, delivered
 
+> ⚠️ **This repo is retired — kept only as build history.** Development moved to the
+> Lovable-designed rebuild: **[stokup-your-shop-delivered](https://github.com/Sibusiso-K/stokup-your-shop-delivered)**
+> (live at https://stokup-your-shop-delivered.vercel.app). That repo has the current app,
+> the up-to-date docs, and all active database migrations. Nothing here is deployed anymore.
+
 A buying-and-delivery middleman between wholesalers and spaza shops in Soweto.
 Shop owners order fast-moving stock from their phone; we buy it wholesale and deliver
 it to their door. Capital-light: **zero inventory, cash on delivery (COD)**.
